@@ -16,7 +16,7 @@ class Node {
 export class AppService {
   /**
    * Converts a sequence of `0` and `1` symbols in a string to the number of
-   * consequtive `1` symbols if we can remove one `0` or move one `1` to fill a gap.
+   * consecutive `1` symbols if we can remove one `0` or move one `1` to fill a gap.
    *
    * It considers the sequence as a graph-like chain where a node cost is a number
    * of consecutive `1` symbols and a distance is a number of consecutive `0` symbols.
